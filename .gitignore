@@ -1,0 +1,7 @@
+# Local test-server logs and Python cache
+*.log
+__pycache__/
+# Office lock files (a document is open)
+~$*
+# Sample prep brief made from a test booking (contains a real email address)
+booking-brief/SAMPLE_*

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="600" fill="#151515"/>
+  <text x="450" y="44" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">FIELD-SERVICES DAILY REPORTS — PROPOSED DESIGN</text>
+  <text x="450" y="68" fill="#7ee2bf" font-size="13" text-anchor="middle">Designed, not deployed</text>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9aa3ad"/></marker>
+  </defs>
+  <g stroke="#9aa3ad" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <path d="M450 152 V182"/><path d="M450 252 V282"/><path d="M450 352 V382"/><path d="M450 452 V482"/>
+    <path d="M600 317 H660"/>
+  </g>
+  <g font-size="14" text-anchor="middle">
+    <rect x="270" y="92" width="360" height="60" rx="8" fill="#3a1d1d" stroke="#b34d4d"/>
+    <text x="450" y="118" fill="#fff" font-weight="700">Foremen&#8217;s daily updates</text>
+    <text x="450" y="138" fill="#e6c9c9" font-size="12">Unstructured: email, WhatsApp and text</text>
+
+    <rect x="270" y="192" width="360" height="60" rx="8" fill="#16233b" stroke="#5b7fc7"/>
+    <text x="450" y="218" fill="#fff" font-weight="700">1. AI interprets</text>
+    <text x="450" y="238" fill="#c9d6ef" font-size="12">An LLM only reads and structures the language</text>
+
+    <rect x="270" y="292" width="330" height="60" rx="8" fill="#16233b" stroke="#5b7fc7"/>
+    <text x="435" y="318" fill="#fff" font-weight="700">2. Rules validate</text>
+    <text x="435" y="338" fill="#c9d6ef" font-size="12">Matching, duplicates, arithmetic, required fields</text>
+    <rect x="660" y="292" width="200" height="60" rx="8" fill="#1d1d1d" stroke="#555" stroke-dasharray="4 3"/>
+    <text x="760" y="318" fill="#ddd" font-size="12">Fails a rule?</text>
+    <text x="760" y="336" fill="#aaa" font-size="12">Flagged, never guessed</text>
+
+    <rect x="270" y="392" width="360" height="60" rx="8" fill="#16233b" stroke="#5b7fc7"/>
+    <text x="450" y="418" fill="#fff" font-weight="700">3. Humans approve</text>
+    <text x="450" y="438" fill="#c9d6ef" font-size="12">A person signs off anything billable, e.g. change orders</text>
+
+    <rect x="270" y="492" width="360" height="60" rx="8" fill="#123227" stroke="#08a87a"/>
+    <text x="450" y="518" fill="#fff" font-weight="700">Checked daily report</text>
+    <text x="450" y="538" fill="#bfe9d8" font-size="12">AI interprets. Rules validate. Humans approve.</text>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aditya-totade-portfolio.vercel.app/sitemap.xml
